@@ -1,9 +1,7 @@
 name: Run Feed Processor
 
 on:
-  schedule:
-    - cron: '0 * * * *'   # Runs every 1 hour
-  workflow_dispatch:      # Allows manual trigger
+  workflow_dispatch:      # Manual trigger only (no auto schedule)
 
 jobs:
   run-processor:
