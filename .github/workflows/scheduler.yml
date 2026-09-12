@@ -3,6 +3,11 @@ name: Run Feed Processor
 on:
   workflow_dispatch:      # Manual trigger only (no auto schedule)
 
+permissions:
+  contents: write
+
+jobs:
+
 jobs:
   run-processor:
     runs-on: ubuntu-latest
