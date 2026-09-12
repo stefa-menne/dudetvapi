@@ -7,8 +7,6 @@ permissions:
   contents: write
 
 jobs:
-
-jobs:
   run-processor:
     runs-on: ubuntu-latest
     steps:
